@@ -29,15 +29,15 @@ C compiler (gcc recommended)
 Standard C libraries (stdio.h, stdlib.h, string.h)
 ##Sample Output
 
-Enter Number Of Passengers: 2
-Enter The 1th Passenger Name: Alice
-Enter The 1th Passenger Gender: F
-Enter The 1th Passenger Age: 25
-Enter The 2th Passenger Name: Bob
-Enter The 2th Passenger Gender: M
-Enter The 2th Passenger Age: 30
-Enter The Source Place: New York
-Enter The Destination Place: Los Angeles
+        Enter Number Of Passengers: 2
+        Enter The 1th Passenger Name: Alice
+        Enter The 1th Passenger Gender: F
+        Enter The 1th Passenger Age: 25
+        Enter The 2th Passenger Name: Bob
+        Enter The 2th Passenger Gender: M
+        Enter The 2th Passenger Age: 30
+        Enter The Source Place: New York
+        Enter The Destination Place: Los Angeles
 
         The Following Trains Are Available.....
         1. Rajdhani Express........10:00 a.m........Sealdah Station
