@@ -1,4 +1,4 @@
-##Railway Reservation System
+#Railway Reservation System
 This is a simple C program for a Railway Reservation System. It allows users to book train tickets, manage reservations, and generate a receipt for their journey. The program demonstrates the use of structures, linked lists, and basic file handling in C.
 
 ##Features
