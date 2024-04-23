@@ -9,27 +9,31 @@ Select from available trains and classes.
 Calculate total bill amount based on fare and class.
 Choose seats from a seat matrix.
 Generate a receipt with passenger details and journey information.
-##Usage
+
+# Usage
 Compile the program using a C compiler:
 gcc railway_reservation.c -o railway_reservation
-##Run the compiled program:
+
+# Run the compiled program:
 
 ./railway_reservation
-##Follow the prompts to book tickets:
+
+# Follow the prompts to book tickets:
 Enter the number of passengers and their details.
 Select the source and destination.
 Choose a train from the available options.
 Select the class (sleeper/AC).
 Choose seats from the displayed seat matrix.
 The program will calculate the total bill amount and display a receipt.
-##Structure
+ # Structure
 railway_reservation.c: Main C program file.
 README.md: This README file providing information about the project.
 LICENSE: MIT License file for the project.
-##Requirements
+
+# Requirements
 C compiler (gcc recommended)
 Standard C libraries (stdio.h, stdlib.h, string.h)
-##Sample Output
+# Sample Output
 
         Enter Number Of Passengers: 2
         Enter The 1th Passenger Name: Alice
