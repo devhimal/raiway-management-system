@@ -1,0 +1,10 @@
+Source of Travel:nepal
+ Destination of Travel:india
+ Station: Sealdah Station
+  Train: Rajdhani Express
+ Allocated Class: Sleeper Class
+ Boarding Time: 10:0
+ Total Bill Amount: 5522
+ Allocated Seat: 46
+Allocated Seat: 47
+Allocated Seat: 48

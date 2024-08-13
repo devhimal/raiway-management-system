@@ -23,6 +23,7 @@ void add_node(char[], char[], int);
 char source[20], des[20], train[40];
 char station[40], cla[40];
 int time1, time2, a[55];
+FILE *text;
 
 // Function prototypes
 int main()
@@ -260,10 +261,16 @@ void bill(int y, int j)
     printf("\t\tBoarding Time: %d:%d\n", time1, time2);
     printf("\t\tTotal Bill Amount: %d\n", y);
     printf("\t\tAllocated Seats Are: ");
+
+    text = fopen("Railway_Ticket.txt", "w");
+    fprintf(text, "Source of Travel:%s\n Destination of Travel:%s\n Station: %s\n  Train: %s\n Allocated Class: %s\n Boarding Time: %d:%d\n Total Bill Amount: %d\n ", source, des, station, train, cla, time1, time2, y);
     for (i = 0; i < j; i++)
     {
         printf("%d ", a[i]);
+        fprintf(text, "Allocated Seat: %d\n", a[i]);
     }
+    fclose(text);
+
     printf("\n");
     printf("\t\t\t\tThank You......\n");
 }
